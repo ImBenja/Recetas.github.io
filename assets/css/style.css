@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  background: hsl(30, 54%, 90%);
+}
+
+main {
+  overflow: hidden;
+}
+
+.Container-Recetas {
+  background: white;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 0px 7px black;
+}
+
+.Img-Recetas {
+  height: 200px;
+}
+
+.Recetas-Text {
+  margin: 0.5rem 0 0 1rem;
+  padding: 0 1rem;
+}
+
+.Recetas-Text .Title-Omelet {
+  color: hsl(24, 5%, 18%);
+  font-size: 2.5em;
+  font-family: "Young Serif";
+  font-weight: 400;
+}
+
+.Recetas-Text .Sub-Omelet {
+  color: hsl(30, 10%, 34%);
+  font-size: 1.2em;
+  font-family: "Outfit";
+  font-weight: 400;
+}
+
+.Preparation-Time {
+  background: hsl(330, 100%, 98%);
+  border-radius: 20px;
+  padding: 0.2rem;
+  width: 330px;
+}
+
+.Time-Text {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.Time-Text .Title-Time {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.4em;
+  font-family: "Outfit";
+}
+
+.Time-Text ul {
+  list-style-position: outside;
+}
+
+.Time-Text ul li {
+  color: hsl(332, 51%, 32%);
+  padding: 0.3rem 1rem;
+}
+
+.Time-Text .Sub-Time {
+  color: hsl(24, 5%, 18%);
+  font-family: "Outfit";
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.Time-Text .Text-Time {
+  color: hsl(30, 10%, 34%);
+  font-size: 1.1em;
+  font-family: "Outfit";
+  font-weight: 400;
+}
+
+.Title-List {
+  color: hsl(14, 45%, 36%);
+  font-size: 2.2em;
+  font-family: "Young Serif";
+  font-weight: 400;
+}
+
+.Ingredients {
+  margin: 0.5rem 0 0 0;
+}
+
+.Ingredients ul {
+  list-style-position: outside;
+  padding: 0 1.8rem;
+  margin-top: -1rem;
+}
+
+.Ingredients ul li {
+  color: hsl(14, 45%, 36%);
+  padding: 0.3rem 1rem;
+}
+
+.Ingredients .Text-Ingredients {
+  color: hsl(30, 10%, 34%);
+  font-size: 1.2em;
+  font-family: "Outfit";
+  font-weight: 400;
+}
+
+.Instructions {
+  margin: 0.5rem 0 0 0;
+}
+
+.Instructions ol {
+  list-style-position: outside;
+  padding: 0 1.8rem;
+  margin-top: -1rem;
+}
+
+.Instructions ol li {
+  color: hsl(14, 45%, 36%);
+  padding: 0.5rem 1rem;
+  font-family: "Outfit";
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.Instructions .Sub-Instructions {
+  color: hsl(24, 5%, 18%);
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.Instructions .Text-Instructions {
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+
+.Nutrition {
+  margin: 0.3rem 0 0 0;
+}
+
+.Nutrition .Sub-Nutrition {
+  color: hsl(30, 10%, 34%);
+  font-size: 1.2em;
+  font-family: "Outfit";
+  font-weight: 500;
+  margin-top: -1rem;
+}
+
+.Nutrition .Resumen-Nutriciones {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 2rem;
+  padding: 0.5rem 0;
+}
+
+.Nutrition .Resumen-Nutriciones .Nutrciones {
+  color: hsl(30, 10%, 34%);
+  font-size: 1.2em;
+  font-family: "Outfit";
+  font-weight: 600;
+}
+
+.Nutrition .Resumen-Nutriciones .Resumen {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.2em;
+  font-family: "Outfit";
+  font-weight: 800;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  main {
+    padding: 5rem 16rem;
+  }
+
+  .Container-Recetas {
+    padding: 30px 10px;
+    border-radius: 30px;
+  }
+
+  .Img-Recetas {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 340px;
+  }
+
+  .Preparation-Time {
+    width: 750px;
+  }
+}
